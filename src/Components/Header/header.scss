@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.685);
+    margin: 0 0 20px 0;
+    z-index: 5;
+    &__title {
+        font-family: 'Fredoka One', cursive;
+        font-size: 120px;
+        font-weight: 900;
+        margin: 30px 0;
+        text-shadow: 5px 5px 5px white;
+        @media screen and (max-width: 700px) {
+            font-size: 90px;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 60px;
+        }
+        @media screen and (max-width: 350px) {
+            font-size: 40px;
+        }
+    }
+}

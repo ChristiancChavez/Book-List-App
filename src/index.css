@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Yeon Sung', cursive;
+  background: linear-gradient(180deg, rgba(0,212,255,1) 50%, rgb(1, 22, 117) 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+

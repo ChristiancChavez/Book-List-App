@@ -1,0 +1,78 @@
+.search {
+    position: relative;
+    margin-top: 20px;
+    @media screen and (max-width: 700px) {
+        margin-top: 35px
+    }
+    &-success {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        color: #4be1ff;
+        padding: 30px;
+        font-weight: bolder;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        border-radius: 8px;
+        border: none;
+    }
+    &-form {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        padding: 15px 25px;
+        margin-top: 35px;
+        border-radius: 8px;
+        @media screen and (max-width: 700px) {
+            margin-top: 0;
+        }
+        &__input {
+            background:rgba(242, 2, 250, 0.144);
+            font-family: 'Yeon Sung', cursive;
+            text-align: center;
+            padding: 15px 25px;
+            margin: 0;
+            border-radius: 8px;
+            border: none;
+            width: 390px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            color:white;
+            &::placeholder {
+                color: black;
+            }
+            @media screen and (max-width: 700px) {
+                font-size: 26px;
+            }
+            @media screen and (max-width: 500px) {
+                width: 270px;
+                font-size: 23px;
+                margin-bottom: 15px;
+            }
+            @media screen and (max-width: 400px) {
+                width: 210px;
+                font-size: 20px;
+                padding: 15px;
+            }
+            @media screen and (max-width: 300px) {
+                padding: 10px;
+                width: 180px;
+            }
+        }
+        &__add {
+            background: transparent;
+            border: none;
+            font-size: 30px;
+            color: black;
+            cursor: pointer;
+            outline: 0;
+            &:hover {
+                color: white;                
+            }
+        }
+    }
+}
